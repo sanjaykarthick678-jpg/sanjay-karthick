@@ -1,0 +1,20 @@
+{
+  "appName": "Java Lab & Exam Portal",
+  "runtime": {
+    "mode": "local",
+    "url": "http://127.0.0.1:3002",
+    "bindAddress": "127.0.0.1",
+    "database": "sqlite",
+    "databasePath": "execution-service/data/portal.sqlite",
+    "javaVersion": 17,
+    "nodeVersion": ">=22.13.0"
+  },
+  "auth": {
+    "method": "local-password",
+    "sessionDurationHours": 12
+  },
+  "theme": {
+    "defaultMode": "light",
+    "allowDarkToggle": true
+  }
+}

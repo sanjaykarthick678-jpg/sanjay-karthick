@@ -1,0 +1,14 @@
+node_modules/
+execution-service/data/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+.env
+.env.*
+!.env.example
+.clasp.json
+*.log
+*.class
+*.jar
+.DS_Store
+Thumbs.db
